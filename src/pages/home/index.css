@@ -1,0 +1,47 @@
+.primary {
+  font-size: 68px;
+  line-height: 76px;
+  margin-top: -80px;
+  font-weight: 900;
+}
+
+.first-screen {
+  height: calc(100vh - 80px);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  /* background-color: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(20px); */
+}
+
+.time-node {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+}
+
+.time-node-left {
+  width: calc(50% - 10px);
+}
+
+.time-line {
+  display: flex;
+  flex-direction: column;
+}
+
+.time-node-right {
+  width: calc(50% - 10px);
+}
+
+.time-node-center{
+  width: 10px;
+  height: 10px;
+  border-style: solid;
+  border-color: #bfbfbf;
+  border-radius: 50%;
+}
+
+.Home{
+  overflow: hidden;
+}
