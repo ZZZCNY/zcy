@@ -1,3 +1,17 @@
-.about{
+.About {
+  margin: 24px;
   padding: 24px;
+  border-radius: 10px;
+}
+
+@media (prefers-color-scheme: light) {
+  .About {
+    background-color: #ffffff;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .About {
+    background-color: #141414;
+  }
 }
