@@ -10,7 +10,7 @@ const Home: React.FC = () => {
           <div>我是周晨阳</div>
         </div>
       </div>
-      <Timeline mode='left'>
+      <Timeline className='timeline' mode='left'>
         <Timeline.Item label='2019-09'>进入福建工程学院</Timeline.Item>
         <Timeline.Item label='2019-12-18'>
           注册{' '}
