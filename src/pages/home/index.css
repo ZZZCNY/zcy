@@ -44,6 +44,7 @@
 
 .Home {
   overflow: hidden;
+  padding: 24px;
 }
 
 @media (prefers-color-scheme: light) {
