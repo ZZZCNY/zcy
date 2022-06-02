@@ -4,6 +4,7 @@ import { Link, Route, Routes } from 'react-router-dom'
 import './App.css'
 import About from './pages/about'
 import Home from './pages/home'
+import Knowledge from './pages/knowledge'
 
 const App: React.FC = () => {
   return (
@@ -15,9 +16,11 @@ const App: React.FC = () => {
               主页
             </Button>
           </Link>
-          <Button type='text' size='large'>
-            知识
-          </Button>
+          <Link to='knowledge'>
+            <Button type='text' size='large'>
+              知识
+            </Button>
+          </Link>
           <Link to='/about'>
             <Button type='text' size='large'>
               关于我
@@ -26,9 +29,11 @@ const App: React.FC = () => {
         </Space>
       </header>
       <Routes>
+        <Route path='/knowledge/*' element={<Knowledge />} />
         <Route path='/about' element={<About />} />
         <Route path='*' element={<Home />} />
       </Routes>
+      <footer>powered by React</footer>
     </div>
   )
 }
