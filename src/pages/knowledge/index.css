@@ -1,17 +1,18 @@
-.About {
+.Knowledge {
   margin: 24px;
   padding: 24px;
   border-radius: 10px;
+  text-align: start;
 }
 
 @media (prefers-color-scheme: light) {
-  .About {
+  .Knowledge {
     background-color: #ffffff;
   }
 }
 
 @media (prefers-color-scheme: dark) {
-  .About {
+  .Knowledge {
     background-color: #1f1f1f;
   }
 }
