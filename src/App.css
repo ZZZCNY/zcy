@@ -45,7 +45,7 @@
   /* font-size: calc(10px + 2vmin); */
   /* color: white; */
   position: sticky;
-  top: 0;
+  top: 0px;
   backdrop-filter: blur(10px);
   z-index: 999;
 }
