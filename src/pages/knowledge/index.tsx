@@ -6,12 +6,15 @@ import './index.css'
 
 const Knowledge: React.FC = () => {
   return (
-    <div className='Knowledge'>
-      <Routes>
-        <Route path='/Design-Patterns' element={<DesignPatterns />} />
-        <Route path='*' element={<KnowledgeList />} />
-      </Routes>
-    </div>
+    <>
+      <div className='Knowledge'>
+        <Routes>
+          <Route path='/Design-Patterns' element={<DesignPatterns />} />
+          <Route path='*' element={<KnowledgeList />} />
+        </Routes>
+      </div>
+      <div className='leave_blank' />
+    </>
   )
 }
 

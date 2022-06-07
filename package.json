@@ -1,6 +1,6 @@
 {
   "name": "zcy",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
@@ -10,7 +10,7 @@
     "@types/node": "^16.11.36",
     "@types/react": "^18.0.9",
     "@types/react-dom": "^18.0.4",
-    "antd": "^4.20.6",
+    "antd": "^4.21.0",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
     "react-router-dom": "^6.3.0",
