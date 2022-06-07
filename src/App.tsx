@@ -33,7 +33,6 @@ const App: React.FC = () => {
         <Route path='/about' element={<About />} />
         <Route path='*' element={<Home />} />
       </Routes>
-      <footer>powered by React</footer>
     </div>
   )
 }
